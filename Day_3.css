@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    height: 200px;
+    width: 15%;
+    background-color: red;
+    display: inline-flex;
+    margin: 2%;
+   
+}
+.two{
+    height: 200px;
+    width: 20%;
+    background-color:gray;
+    margin: 2%;
+    display: inline-block;
+}
