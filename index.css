@@ -1,0 +1,513 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    /* background-color:rgb(14,21,231); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+}
+.pad{
+     
+    width: 85%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    height: 50px;
+    width: 20%;
+    color: white;
+    /* background-color:blue; */
+    line-height: 50px;
+    font-family:gabriola;
+    font-size: 25;
+    
+}
+.nav{
+    height: 50px;
+    width: 50%;
+    /* background-color:pink; */
+    display: flex;
+
+}
+.nav_item{
+    height: 50px;
+    width:100%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family:gabriola;
+    font-weight: bold;
+    font-size: 20;
+    cursor:pointer;
+    transition:.3s;
+    
+}
+.nav_item:hover{
+    color: blue;
+    background-color: white;
+    
+}
+/* banner start  */
+.banner{
+    height: 600px; 
+    width: 100%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/pap.jpg');
+   
+} 
+.overlay{
+      height: 600px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      
+      
+      
+}
+.banner_text{
+    height: 250px;
+    width: 600px;
+    background-color:rgba(14,21,231,0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    
+}
+.padd{
+    padding: 40px;
+    /* background-color: black; */
+    
+}
+.font_h1{
+    font-family:Segoe UI;
+    font-size: 30px;
+}
+.font_h2{
+    font-family:Segoe UI;
+    font-size:11px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button1{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: segoe UI;
+    color: white;
+    background-color:rgba(14,21,231,0.6);
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    transition:.3s;
+
+
+}
+.button1:hover{
+     background-color: white;
+     color: blue;
+}
+  /* bannner closed */
+  .sec_one{
+      /* height: 500px;
+      width: 100%; */
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #e2dddd;
+;
+      display: flex;
+      align-items: center;
+      flex-direction:column;
+      font-weight: bold;
+      font-family: segoe UI;
+      /* text-transform: uppercase; */
+      color:black;
+  }
+  .sec_two{ 
+   
+    width: 100%;
+    font-family: segoe UI;
+    /* background-color:yellow; */
+    display: flex;
+  }
+.sec_three{
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 320px;
+    width: 360px;
+    /* background-color: red; */
+    display: flex;
+}
+.sec_four{
+    height: 280px;
+    width: 180px;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.sec_five{
+    background-color: white;
+    height: 280px;
+    width: 180px;
+    color: black;
+    /* background-color: black; */
+
+}
+.sec_six{
+    padding: 20px;
+}
+.sec_sev{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.sec_eight{
+    font-size: 10px;
+    margin: 5px;
+
+
+}
+.sec_nine{
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: segoe UI;
+    font-size: 11px;
+    cursor: pointer;
+    transition:.3s;
+}
+.sec_nine:hover{
+    background-color: gray;
+    color: white;
+}
+
+        /* closed of services */
+
+        /* Start of who we are ?  */
+
+
+.who_one{
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    /* line-height: 50px; */
+    font-family: segoe UI;
+    font-weight: bold;
+    color: rgba(14, 7, 7, 0.897);
+    background-color: #e2dddd;
+
+}
+.who_sec{
+    color:rgba(14, 7, 7, 0.897);
+    font-weight: lighter;
+    padding-top: 5px;
+    /* margin: 3%; */
+    /* height: 300px; */
+    /* color: black; */
+    width: 90%;
+    background-color: #e2dddd;
+    font-family: gabriola;
+    font-size:20;
+
+}
+.who_three{
+    color: black;
+    font-size: 30;
+    font-weight: bold;
+}
+/* closed who we are ? */
+   /* :start */
+.port_one{
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2dddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.port_two{
+    display: flex;
+    width: 90%;
+    height:180px;
+    /* background-color: red; */
+    justify-content: center;
+
+}
+.port_ele{
+    margin-left: 5%;
+    width: 20%;
+    height: 180px;
+    background-color: #3a3a75;
+}
+.port_part{
+    display: flex;
+    justify-content: center;
+
+}
+.port_head{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     /* line-height:180px; */
+     margin-top: 70px;
+     align-items: center;
+    
+}
+.text_st{
+    font-style:segoe UI;
+    font-weight: bold;
+}
+.text_st2{
+    font-family: gabriola;
+    font-size: 20;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+      /* start the qutoes */
+.quotes_one{
+    width: 100%;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+    background-color:#3a3a75; 
+
+}
+.quotes_three{
+    display: inline;
+    /* align-items: center; */
+    
+}
+.quotes_two{
+    display:inline;
+    font-family: segoe UI;
+    text-transform: uppercase;
+    font-size: 30;
+    
+}
+.quotes_btn{
+    margin-left: 100px;
+    display:flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: segoe UI;
+    color: white;
+    background-color:rgba(14,21,231,0.6);
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    transition:.3s;
+
+}
+.quotes_btn:hover{
+    background-color: bisque;
+    color: black;
+}
+.quotes_padd{
+    padding-top: 20px;
+}
+
+
+     /* closed  */
+     /* start of partifilo */
+.portifilo_p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2dddd;
+    /* display:flex; */
+}
+.portifilo_one{
+    height: 500px;
+    width: 90%;
+    /* background-color: black; */
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portifilo_3{
+    height: 250px;
+    width: 25%;
+    background-image: url('../Project/Image/house_1.jpg');
+    background-size: cover;
+
+}
+.portifilo_4{
+    height: 250px;
+    width: 25%;
+    /* background-color:red; */
+    background-image: url('../Project/Image/house1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+.portifilo_5{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/aa3.jpg');
+    background-size: cover;
+
+}
+.portifilo_6{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/aa4.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+.portifilo_7{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/aa5.jpg');
+    background-size: cover;
+
+}
+.portifilo_8{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/aa6.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+.portifilo_9{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/house_1.jpg');
+    background-size: cover;
+
+}
+.portifilo_10{
+    height: 250px;
+    width: 25%;
+    /* background-color: gray; */
+    background-image: url('../Project/Image/aa2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.portifilo_3text{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(14,21,231,0.6);
+    cursor: pointer;
+    font-family: gabriola;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.portifilo_3text:hover{
+    height:250px;
+}
+    /* closed portifilo  */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+.footer_container{
+    height: 250px;
+    width: 100%;
+    background-color: #383232;
+    display: flex;
+
+}
+.footeritems{
+    height: 250px;
+    margin-left: 3%;
+    width: 80%;
+    /* background-color: yellow; */
+
+}
+.foot_text{
+    /* height: 50px;
+    width: 20%; */
+    color: white;
+    /* background-color:blue; */
+    /* line-height: 50px; */
+    font-family:gabriola;
+    font-size: 30;
+
+}
+.iteams1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type_1{
+    list-style-type: none;
+    /* padding: 10px; */
+}
+.type_2{
+    margin-left: 5px;
+}
+.col2_text{
+    font-family: segoe UI;
+    font-size: 18;
+    color: white;
+    padding-bottom: 7px;
+
+}
+.col_dec{
+    font-family: segoe UI;
+    color: white;
+    font-size: 12;
+    padding-bottom:4px;
+}
+.a_item{
+    display: flex;
+   
+}
+.item{
+    height: 50px;
+    
+    /* background-color: black; */
+}
+
+
+
+
+
+
+
+
+
+
